@@ -155,7 +155,7 @@ FROM ( SELECT order_id , COUNT(item_id) as num_items
  ORDER BY Pr DESC
  
 
- -- Details of highest spen order 
+ -- Details of highest spend order 
   SELECT order_id,category, COUNT(item_id) num_items
  FROM restaurant_db..order_details O
  LEFT JOIN restaurant_db.. menu_items M
