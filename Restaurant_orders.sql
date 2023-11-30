@@ -1,3 +1,9 @@
+--Analyzing restaurant_orders data which is composed of two tables.
+--Seeing which items are doing well and which is not 
+--What are the most ordered dishes and its category.
+--Returning the most and least revenue by order.
+
+
 ----- View the menu table.
 SELECT * 
 FROM restaurant_db..menu_items
